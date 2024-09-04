@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.elevator-shaft {
+  position: relative;
+  height: 200vh; /* Tall enough for scrolling */
+  background-color: #f4f4f4;
+}
+
+.elevator-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 200px;
+}
+
+#journey {
+  height: 100vh;
+}
